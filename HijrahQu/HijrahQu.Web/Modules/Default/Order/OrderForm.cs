@@ -57,7 +57,6 @@ namespace HijrahQu.Default.Forms
         [ReadOnly(true), Visible(false)]
         public String DisplayName { get; set; }
 
-
         [Category("Detail Barang")]
         [Required]
         [OrderDetailsEditor]
