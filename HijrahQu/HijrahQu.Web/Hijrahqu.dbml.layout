@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.125" name="Hijrahqu">
+  <DataContextMoniker Name="/HijrahquDataContext" />
+  <nestedChildShapes>
+    <classShape Id="74d05a0e-a56a-4eed-a94a-2c16e030e1dc" absoluteBounds="1.875, 0.875, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/HijrahquDataContext/ViewLapPenjualan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ab4da0c-cc8c-4757-9cbd-5165b37313f5" absoluteBounds="1.8899999999999997, 1.335, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07358701-4efe-4498-99bc-b457c875ca45" absoluteBounds="4, 4.875, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/HijrahquDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afc62754-95c1-4ec6-88f3-28cd9d3efa6d" absoluteBounds="4.015, 5.335, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e7b134d-8dfb-4e97-a7ab-70663dabcc39" absoluteBounds="4.625, 1.5, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/HijrahquDataContext/ViewOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6884d8fc-c9e5-4846-af8a-b41e753a4894" absoluteBounds="4.64, 1.96, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

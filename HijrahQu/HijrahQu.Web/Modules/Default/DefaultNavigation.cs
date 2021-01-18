@@ -1,0 +1,20 @@
+﻿using Serenity.Navigation;
+using MyPages = HijrahQu.Default.Pages;
+
+[assembly: NavigationLink(int.MaxValue, "Management/Customer", typeof(MyPages.CustomerController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Order", typeof(MyPages.OrderController), icon: null)]
+//[assembly: NavigationLink(int.MaxValue, "Default/Order Detail", typeof(MyPages.OrderDetailController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Product", typeof(MyPages.ProductController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Supplier", typeof(MyPages.SupplierController), icon: null)]
+//[assembly: NavigationLink(int.MaxValue, "Management/View Order", typeof(MyPages.ViewOrderController), icon: null)]
+//[assembly: NavigationLink(int.MaxValue, "Default/Order Status", typeof(MyPages.OrderStatusController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Lap Penjualan", typeof(MyPages.ViewLapPenjualanController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Message Wa", typeof(MyPages.MessageWaController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Lap Keuangan", typeof(MyPages.ViewLapKeuanganController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Biaya Iklan", typeof(MyPages.BiayaIklanController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/No Resi", typeof(MyPages.NoResiController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Cs List", typeof(MyPages.CsListController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Whatsapp Leads", typeof(MyPages.WhatsappLeadsController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Laporan Harian", typeof(MyPages.LaporanHarianController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Whatsapp Log", typeof(MyPages.WhatsappLogController), icon: null)]
+[assembly: NavigationLink(int.MaxValue, "Management/Kode Pos", typeof(MyPages.KodePosController), icon: null)]
