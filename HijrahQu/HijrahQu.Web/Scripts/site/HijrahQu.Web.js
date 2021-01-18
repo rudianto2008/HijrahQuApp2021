@@ -929,8 +929,10 @@ var HijrahQu;
                     var w2 = s.StringEditor;
                     var w3 = Default.StatusEditor;
                     var w4 = s.DecimalEditor;
-                    var w5 = s.DateEditor;
-                    var w6 = Default.OrderDetailsEditor;
+                    var w5 = Default.CaraBayarEditor;
+                    var w6 = Default.ExpedisiEditor;
+                    var w7 = s.DateEditor;
+                    var w8 = Default.OrderDetailsEditor;
                     Q.initFormType(OrderForm, [
                         'CustomerId', w0,
                         'CustomerAddress', w1,
@@ -940,16 +942,16 @@ var HijrahQu;
                         'Ongkir', w4,
                         'BiayaCOD', w4,
                         'TotalBayar', w4,
-                        'CaraBayar', w2,
-                        'Expedisi', w2,
-                        'TanggalWa', w5,
-                        'TanggalKirim', w5,
-                        'TanggalClosing', w5,
-                        'TanggalBayar', w5,
-                        'TanggalCS', w5,
+                        'CaraBayar', w5,
+                        'Expedisi', w6,
+                        'TanggalWa', w7,
+                        'TanggalKirim', w7,
+                        'TanggalClosing', w7,
+                        'TanggalBayar', w7,
+                        'TanggalCS', w7,
                         'DisplayName', w2,
                         'Keterangan', w2,
-                        'DetailList', w6
+                        'DetailList', w8
                     ]);
                 }
                 return _this;

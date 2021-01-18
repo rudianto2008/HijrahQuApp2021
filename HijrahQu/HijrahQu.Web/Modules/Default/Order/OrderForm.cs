@@ -26,8 +26,8 @@ namespace HijrahQu.Default.Forms
         //public String Kodepos { get; set; }
         //[ReadOnly(true), HalfWidth, DisplayName("Tanggal Order")]
         //public DateTime OrderDate { get; set; }
-        [DisplayName("No Resi"), HalfWidth]
-        public String NoResi { get; set; }
+        //[DisplayName("No Resi"), HalfWidth]
+        //public String NoResi { get; set; }
         [DisplayName("Status Order")]
         public String OrderStatus { get; set; }
         [Category("Informasi Harga")]
@@ -57,12 +57,13 @@ namespace HijrahQu.Default.Forms
         [ReadOnly(true), Visible(false)]
         public String DisplayName { get; set; }
 
+
         [Category("Detail Barang")]
-        [DisplayName("Keterangan")]
-        public String Keterangan { get; set; }
         [Required]
         [OrderDetailsEditor]
         public List<Entities.OrderDetailRow> DetailList { get; set; }
+        [DisplayName("Keterangan")]
+        public String Keterangan { get; set; }
 
     }
 }
